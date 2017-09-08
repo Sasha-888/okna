@@ -1,0 +1,446 @@
+body {
+    background: #A4B6C0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4A4A4A;
+    font-size: smaller;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    background: #E0EFF7;
+    padding-bottom: 100px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    margin: 0;
+}
+
+a {
+    color: #777;
+}
+
+a:hover {
+    color: #F26140;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #E0EFF7;
+}
+
+body > div header {
+    position: relative;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+header > div {
+    width: 50%;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    color: #777;
+}
+
+header div div {
+    float: right;
+    text-align: right;
+
+}
+
+header a {
+    position: absolute;
+    bottom: 0;
+    color: #F26140;
+    font-size: large;
+}
+
+header div h2, header div p {
+    margin: 0;
+}
+
+header div p {
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+nav table {
+    width: auto;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav td {
+    padding: 15px 0;
+    width: 240px;
+
+    font-size: large;
+    color: #777;
+    border-right: solid 1px #777;
+}
+
+nav td:last-child {
+    border: none;
+}
+
+nav td:hover {
+    background-color: #7AC2D4;
+    color: white;
+    cursor: pointer;
+}
+
+div nav + header {
+    background-color: #E0EFF7;
+    color: #4A4A4A;
+    padding: 30px 0 0 0;
+}
+
+nav + header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+nav + header p {
+    font-size: 1.3em;
+    margin-top: 5px;
+}
+
+aside {
+    background-color: white;
+    width: 200px;
+    float: left;
+    border-radius: 3px;
+
+}
+
+aside ul {
+    padding: 0 0 20px 0;
+    margin: 0;
+
+}
+
+aside li {
+    list-style-type: none;
+    padding: 5px 15px;
+}
+
+aside li:first-child {
+    font-size: large;
+    padding: 15px;
+    color: #4A4A4A;
+}
+
+section {
+    background-color: white;
+    margin-left: 220px;
+    border-radius: 3px;
+}
+
+aside + section {
+    padding-bottom: 30px;
+}
+
+section h2 {
+    padding: 30px 20px;
+}
+
+div#sample {
+    float: left;
+    color: #DBDBDB;
+    font-size: large;
+    text-align: center;
+}
+
+div#sample p {
+    margin: 20px 0;
+}
+
+section div div {
+    margin-left: 270px;
+    padding: 0;
+}
+
+section div {
+    padding: 10px 30px 40px 30px;
+}
+
+section li {
+    color: #F26140;
+    padding: 3px;
+}
+
+section li span {
+    color: #4A4A4A;
+}
+
+section ul {
+    margin: 0 0 20px 0;
+
+}
+
+section th {
+    color: #777;
+}
+
+section th:first-child {
+    text-align: left;
+    color: #4A4A4A;
+    font-size: larger;
+
+}
+
+section td:first-child span {
+    border-bottom: dashed 1px #F26140;
+}
+
+section td:last-child span {
+    color: #4A4A4A;
+}
+
+section table {
+    border-collapse: collapse;
+}
+
+section th, section td {
+    padding: 2px 10px;
+    width: auto;
+    border-right: solid 1px #DBDBDB;
+}
+
+section td {
+    font-weight: bolder;
+    color: #F26140;
+}
+
+section th:last-child, section td:last-child {
+    border: none;
+}
+
+#send {
+    margin: 10px 0;
+    width: 300px;
+}
+
+#send p {
+    text-align: left;
+}
+
+#send button {
+    border-radius: 3px;
+    border: solid 1px #F26140;
+    color: white;
+    background-color: #F26140;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+article {
+    margin: 20px;
+}
+
+article img {
+    float: left;
+    padding-right: 40px;
+}
+
+section:nth-of-type(2) {
+    padding: 10px 10px 30px 10px;
+    margin-top: 25px;
+}
+
+section:nth-of-type(2) h2 {
+    padding: 10px;
+    margin: 10px;
+}
+
+section p {
+    margin-left: 80px;
+}
+
+.num {
+    padding: 10px 15px 8px 15px;
+    float: left;
+    border: 3px solid #4A4A4A;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+section:nth-of-type(2) + div {
+    position: relative;
+    margin: 30px 0 20px 220px;
+}
+
+section:nth-of-type(2) + div p {
+    float: right;
+}
+
+section:nth-of-type(2) + div a {
+    color: #F26140;
+}
+
+section:nth-of-type(3) {
+    padding: 40px 30px;
+}
+
+section:nth-of-type(3) p {
+    margin: 0;
+}
+
+.com_date, .order {
+    color: #ACACAC;
+}
+
+.com_date + img {
+    margin: 7px 0;
+}
+
+.name {
+    color: black;
+    font-weight: bold;
+}
+
+.com {
+    width: auto;
+    height: 40px;
+    padding: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+    color: black;
+}
+
+.com_open {
+    height: auto;
+}
+
+.com + div {
+    color: #F26140;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: larger;
+    padding: 0;
+}
+
+.com + div span:nth-of-type(2) {
+    display: inline-block;
+    border-bottom: 1px dotted;
+}
+
+.btns {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.otz_btn {
+    border-radius: 3px;
+    border: solid 1px #F26140;
+    color: white;
+    background-color: #F26140;
+    padding: 10px 20px;
+    font-size: larger;
+    margin-right: 20px;
+}
+
+.vk_btn {
+    color: #ADC0D3;
+    background-color: #5F82A8;
+    border: 1px solid #5F82A8;
+    border-radius: 3px;
+}
+
+.vk_btn span {
+    display: inline-block;
+    color: white;
+    padding: 3px 5px;
+    margin-right: 5px;
+    border-right: 1px solid #ADC0D3;
+}
+
+#colors img {
+    width: 450px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#colors {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 476px;
+}
+
+#colors input {
+    display: none;
+}
+
+#colors label {
+    position: relative;
+    padding:27px;
+    border: 5px solid white;
+    display: inline-block;
+    margin-left: -3px;
+    z-index: 1;
+}
+
+#colors input:checked + label {
+    border-color: #F26140;
+
+
+}
+
+#colors label:first-of-type {
+    margin-left: 11px;
+}
+
+
+
+
+footer {
+    width: 1000px;
+    background: #A4B6C0;
+    margin: 0 auto;
+
+}
+
+footer nav {
+    margin: 40px auto;
+    background: #A4B6C0;
+}
+
+footer td {
+    color: #5E6872;
+}
+
+footer td:hover {
+    background-color: #A4B6C0;
+    color: white;
+}
+
+footer div {
+    margin-left: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+footer span {
+    font-size: x-large;
+    font-weight: normal;
+}
+
+footer a {
+    color: #F26140;
+}
+
